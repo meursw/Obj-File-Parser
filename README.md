@@ -8,7 +8,7 @@ Not the most efficient or robust parser but it gets the job done for these tutor
 I may improve this program in the future.
 
 **NOTE**: If the texture isn't mapped correctly on your graphics engine (Im loading in DX11 with STB_image.h)
-try flipping the UV coordinates on the U axis, effectively making the UV coordinates start from the bottom left to the top left (in my case)
+try flipping the UV coordinates on the U axis, effectively making the UV coordinates start from the bottom left to the top left (in my case).
 You can do that in the vertex or pixel shader like this: 
 ```hlsl
 float2 tex = float2(input.tex.x, 1.0f - input.tex.y);
